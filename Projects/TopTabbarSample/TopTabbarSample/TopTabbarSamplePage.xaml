@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			xmlns:local="clr-namespace:TopTabbarSample"
+			x:Class="TopTabbarSample.TopTabbarSamplePage">
+	<TabbedPage.ItemsSource>
+		<x:Array Type="{x:Type x:String}">
+			<x:String>First</x:String>
+			<x:String>Second</x:String>
+			<x:String>Third</x:String>
+		</x:Array>
+	</TabbedPage.ItemsSource>
+</TabbedPage>
